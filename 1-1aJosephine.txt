@@ -1,0 +1,282 @@
+import * as React from "react";
+
+function MyComponent() {
+return (
+  <div className="flex flex-col pt-3.5 bg-white">
+    <div className="flex gap-5 justify-between self-center w-full max-w-[1327px] max-md:flex-wrap max-md:max-w-full">
+      <div className="flex gap-2 text-xl font-bold text-red-600 whitespace-nowrap">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/26feb81ed5054e7934e1c237cd92d14b5e53aada439f7b408baaa07ee5e1622d?apiKey=78eb87f3dcd144da875334e508a9ef95&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/26feb81ed5054e7934e1c237cd92d14b5e53aada439f7b408baaa07ee5e1622d?apiKey=78eb87f3dcd144da875334e508a9ef95&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/26feb81ed5054e7934e1c237cd92d14b5e53aada439f7b408baaa07ee5e1622d?apiKey=78eb87f3dcd144da875334e508a9ef95&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/26feb81ed5054e7934e1c237cd92d14b5e53aada439f7b408baaa07ee5e1622d?apiKey=78eb87f3dcd144da875334e508a9ef95&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/26feb81ed5054e7934e1c237cd92d14b5e53aada439f7b408baaa07ee5e1622d?apiKey=78eb87f3dcd144da875334e508a9ef95&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/26feb81ed5054e7934e1c237cd92d14b5e53aada439f7b408baaa07ee5e1622d?apiKey=78eb87f3dcd144da875334e508a9ef95&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/26feb81ed5054e7934e1c237cd92d14b5e53aada439f7b408baaa07ee5e1622d?apiKey=78eb87f3dcd144da875334e508a9ef95&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/26feb81ed5054e7934e1c237cd92d14b5e53aada439f7b408baaa07ee5e1622d?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+          className="shrink-0 aspect-[1.02] w-[45px]"
+        />
+        <div className="my-auto border border-black border-solid">FoxTow</div>
+      </div>
+      <div className="flex gap-5 justify-between self-start px-5 font-medium">
+        <div className="my-auto text-xs text-black">
+          <span className="font-semibold">Certified Towing </span>
+          <span className="">Programmer1 (Manager)</span>
+        </div>
+        <div className="justify-center items-center px-4 text-xl text-white whitespace-nowrap bg-indigo-600 rounded-full h-[42px] w-[42px]">
+          S
+        </div>
+      </div>
+    </div>
+    <div className="flex gap-5 justify-between px-16 pt-px pb-2 mt-2.5 w-full bg-blue-900 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+      <div className="flex gap-5 justify-between items-center text-sm text-white whitespace-nowrap max-md:flex-wrap max-md:max-w-full">
+        <div className="flex gap-2.5 self-stretch my-auto">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/c6d2add502909dd84b8702f6926c4cbb80d86db5398c8bde84afef220b246db6?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+            className="shrink-0 w-4 aspect-square"
+          />
+          <div className="my-auto">Dashboard</div>
+        </div>
+        <div className="flex gap-2.5 self-stretch my-auto">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/dec99c88e9cd82c56fd4dd75bf42ad0852fd8bafced686662aedd0ef3b26bf47?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+            className="shrink-0 w-4 aspect-square"
+          />
+          <div>Dispatching</div>
+        </div>
+        <div className="flex gap-2 self-stretch my-auto">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a327900ffe4e65f9185426f7f79c1b6a08fc7337237436c77318a92771d2c68e?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+            className="shrink-0 w-4 aspect-square"
+          />
+          <div>Map</div>
+        </div>
+        <div className="flex gap-2.5 self-stretch my-auto">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/18470f7d6e2b2c7162761c46418d24ae322c25a23e43f79c179d87789e6457f2?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+            className="shrink-0 w-4 aspect-square"
+          />
+          <div>Impounds</div>
+        </div>
+        <div className="flex gap-2 justify-center items-start self-stretch px-1.5 py-3.5 bg-indigo-400 rounded-none">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/16ea1a619bb0e5e65c5d83b61813cf71497587de8845438bd2a048b105cc8aa3?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+            className="shrink-0 w-4 aspect-square"
+          />
+          <div>Accounts</div>
+        </div>
+        <div className="flex gap-2.5 self-stretch my-auto">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b1e629100c84563d6fdf803b4019c0db6bdf9880e0bdf4caf1298059c04da61a?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+            className="shrink-0 w-4 aspect-square"
+          />
+          <div>Reports</div>
+        </div>
+        <div className="flex gap-2.5 self-stretch my-auto">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/5bc4d9c7f3254fb50b1a734c8a21022f2de294e659bde2012c5aa5e2a42853d3?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+            className="shrink-0 w-4 aspect-square"
+          />
+          <div>Settings</div>
+        </div>
+      </div>
+      <div className="flex gap-5 justify-between my-auto">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/c7609b29a9957515b7e25682a5e82b9dd80628d2a058b128d074b2c71aeeb6d1?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+          className="shrink-0 w-6 aspect-square"
+        />
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/4ced3d62eae21979dbb5b4701eb1b763e38b18a0c9d6c548211d9bdfc1d5fa0e?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+          className="shrink-0 w-6 aspect-square"
+        />
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/80540f95dadde8713ee1784d604a4efaf386cc35f5efd72efca907c03fa17a8f?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+          className="shrink-0 w-6 aspect-square"
+        />
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/58b0484277a2006f0ff5997f1e7ef9b8e06ee0e161ec924c6179fea592e8f44b?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+          className="shrink-0 w-6 aspect-square"
+        />
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/2328b69b94ae8562e87d3c59cc6099072a190fe21b366641f245f841a8f316a5?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+          className="shrink-0 w-6 aspect-square"
+        />
+      </div>
+    </div>
+    <div className="flex gap-5 mt-2.5 ml-5 max-w-full text-sm text-black w-[867px] max-md:flex-wrap">
+      <div className="flex gap-3 self-start">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/6112fc9928ec97fb72c8a39c9482e627d82de391de32450573c5315bb7be08e0?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+          className="shrink-0 aspect-square w-[30px]"
+        />
+        <div className="my-auto">Add account</div>
+      </div>
+      <div className="flex flex-auto gap-2.5 items-start max-md:flex-wrap">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/50cb3fc50d7ac8681908c3017e0f626e22e8ed7f7231350e80a39266cf757c3b?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+          className="shrink-0 aspect-square w-[30px]"
+        />
+        <div className="flex-auto self-stretch my-auto">
+          Prepare & Send Statements
+        </div>
+        <div className="flex gap-1">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b72c7b4b106c2e866378ddd6d9e2b28c06e32507df7349d2735a4ff271d0ff30?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+            className="shrink-0 aspect-square w-[30px]"
+          />
+          <div className="flex-auto my-auto">Revenue Report</div>
+        </div>
+        <div className="flex gap-1.5">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/f95eb7875e47f2611534eae63c9f49836b0cd6f5452ca10d427e05df8f1ab679?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+            className="shrink-0 aspect-square w-[30px]"
+          />
+          <div className="flex-auto my-auto">Open Balances</div>
+        </div>
+        <div className="flex gap-2">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/5bc8f3a1bfe59b0933acbee5e20ffead6ba4c496e79286cf14378b027181732e?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+            className="shrink-0 aspect-square w-[30px]"
+          />
+          <div className="my-auto">Send Email</div>
+        </div>
+      </div>
+    </div>
+    <div className="mt-2.5 w-full border border-solid bg-zinc-300 border-zinc-300 min-h-[4px] max-md:max-w-full" />
+    <div className="self-start mt-6 ml-9 text-xl font-medium text-black max-md:ml-2.5">
+      Accounts & Customers
+    </div>
+    <div className="flex flex-col px-9 pt-2.5 pb-8 mt-8 w-full text-black bg-stone-50 max-md:px-5 max-md:max-w-full">
+      <div className="flex gap-5 justify-between items-start max-md:flex-wrap max-md:max-w-full">
+        <div className="flex flex-col px-5 pt-5 pb-2.5 mt-1.5 border border-solid border-stone-200 max-md:max-w-full">
+          <div className="flex gap-5 justify-between max-w-full text-xs font-medium w-[315px]">
+            <div>
+              Display By Account Type
+              <br />
+            </div>
+            <div>
+              Display By Tag
+              <br />
+            </div>
+          </div>
+          <div className="flex gap-3 items-start mt-1.5 text-xs font-light max-md:flex-wrap">
+            <div className="flex gap-2">
+              <div className="flex gap-5 px-3 py-2.5 bg-white rounded-sm border border-solid border-neutral-200">
+                <div className="flex-auto">(display all account types)</div>
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/7617e17d27d47920166ee85359e8254954559e07dcda9edec4e6411ab106ccf0?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+                  className="shrink-0 my-auto aspect-[2.27] fill-zinc-300 w-[9px]"
+                />
+              </div>
+              <div className="flex gap-5 justify-between px-3 py-2.5 bg-white rounded-sm border border-solid border-neutral-200">
+                <div>(display all tags)</div>
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/7617e17d27d47920166ee85359e8254954559e07dcda9edec4e6411ab106ccf0?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+                  className="shrink-0 my-auto aspect-[2.27] fill-zinc-300 w-[9px]"
+                />
+              </div>
+            </div>
+            <div className="justify-center px-3 py-3 rounded-sm border border-solid bg-neutral-100 border-neutral-200">
+              <span className="font-black">—</span> Show Inactive Accounts
+            </div>
+            <div className="flex gap-1 self-stretch px-px">
+              <div className="justify-center self-start py-3 rounded-sm border border-solid bg-neutral-100 border-neutral-200">
+                <span className="font-black">—</span> Show Deleted Accounts
+              </div>
+              <div className="flex overflow-hidden relative flex-col items-start px-2.5 pt-2.5 pb-5 border border-solid aspect-[4.42] border-neutral-200 fill-white stroke-[0.5px] stroke-neutral-200 w-[159px] max-md:pr-5">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/5673a31668e16cdc17e54d665be4ba88028cb4f1684ff731ea6ef60538c2d508?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+                  className="object-cover absolute inset-0 size-full"
+                />{" "}
+                Show Call Out Accounts
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col px-5 py-5 bg-white rounded border border-solid border-stone-300 max-md:pl-5">
+          <div className="self-center text-sm font-light">
+            Total Balance
+            <br />
+          </div>
+          <div className="mt-3.5 text-2xl">$ 1,000,000.00</div>
+        </div>
+      </div>
+      <div className="flex gap-1.5 items-center self-end mt-2 text-xs font-semibold text-neutral-400 max-md:mr-2.5">
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0c6b4024b08e0b033e39173086b01b001154e24a930dc631b436ab3fde2183d7?apiKey=78eb87f3dcd144da875334e508a9ef95&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c6b4024b08e0b033e39173086b01b001154e24a930dc631b436ab3fde2183d7?apiKey=78eb87f3dcd144da875334e508a9ef95&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c6b4024b08e0b033e39173086b01b001154e24a930dc631b436ab3fde2183d7?apiKey=78eb87f3dcd144da875334e508a9ef95&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c6b4024b08e0b033e39173086b01b001154e24a930dc631b436ab3fde2183d7?apiKey=78eb87f3dcd144da875334e508a9ef95&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c6b4024b08e0b033e39173086b01b001154e24a930dc631b436ab3fde2183d7?apiKey=78eb87f3dcd144da875334e508a9ef95&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c6b4024b08e0b033e39173086b01b001154e24a930dc631b436ab3fde2183d7?apiKey=78eb87f3dcd144da875334e508a9ef95&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c6b4024b08e0b033e39173086b01b001154e24a930dc631b436ab3fde2183d7?apiKey=78eb87f3dcd144da875334e508a9ef95&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0c6b4024b08e0b033e39173086b01b001154e24a930dc631b436ab3fde2183d7?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+          className="shrink-0 self-stretch my-auto aspect-[1.08] w-[27px]"
+        />
+        <img
+          loading="lazy"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7704e851c669c119994044fd919b223c92709ea0f1ed19a064a4921f9127ebba?apiKey=78eb87f3dcd144da875334e508a9ef95&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7704e851c669c119994044fd919b223c92709ea0f1ed19a064a4921f9127ebba?apiKey=78eb87f3dcd144da875334e508a9ef95&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7704e851c669c119994044fd919b223c92709ea0f1ed19a064a4921f9127ebba?apiKey=78eb87f3dcd144da875334e508a9ef95&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7704e851c669c119994044fd919b223c92709ea0f1ed19a064a4921f9127ebba?apiKey=78eb87f3dcd144da875334e508a9ef95&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7704e851c669c119994044fd919b223c92709ea0f1ed19a064a4921f9127ebba?apiKey=78eb87f3dcd144da875334e508a9ef95&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7704e851c669c119994044fd919b223c92709ea0f1ed19a064a4921f9127ebba?apiKey=78eb87f3dcd144da875334e508a9ef95&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7704e851c669c119994044fd919b223c92709ea0f1ed19a064a4921f9127ebba?apiKey=78eb87f3dcd144da875334e508a9ef95&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7704e851c669c119994044fd919b223c92709ea0f1ed19a064a4921f9127ebba?apiKey=78eb87f3dcd144da875334e508a9ef95&"
+          className="shrink-0 self-stretch max-w-full border border-gray-200 border-solid aspect-[5.26] w-[149px]"
+        />
+        <div className="self-stretch my-auto">Export | Print</div>
+      </div>
+      <div className="flex gap-5 justify-between items-start pt-2 pr-14 pb-20 pl-2 mt-3.5 bg-white max-md:flex-wrap max-md:pr-5 max-md:max-w-full">
+        <div className="flex flex-col mt-3">
+          <div className="text-sm font-medium">Name</div>
+          <div className="mt-10 text-xs">XYZ Police Department</div>
+        </div>
+        <div className="flex flex-col">
+          <div className="flex gap-5 text-sm font-medium whitespace-nowrap">
+            <div className="shrink-0 w-px h-7 border border-solid bg-stone-200 border-stone-200" />
+            <div className="flex-auto my-auto">Address</div>
+          </div>
+          <div className="mt-8 text-xs">123 Hogwarts St. XYZ, CA 94856</div>
+        </div>
+        <div className="flex flex-col whitespace-nowrap">
+          <div className="flex gap-4 text-sm font-medium">
+            <div className="shrink-0 w-px h-7 border border-solid bg-stone-200 border-stone-200" />
+            <div className="my-auto">Phone</div>
+          </div>
+          <div className="self-start mt-8 ml-5 text-xs max-md:ml-2.5">
+            501-123-4567
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <div className="flex gap-3.5 text-sm font-medium whitespace-nowrap">
+            <div className="shrink-0 w-px h-7 border border-solid bg-stone-200 border-stone-200" />
+            <div className="flex-auto my-auto">Type</div>
+          </div>
+          <div className="self-start mt-8 ml-5 text-xs max-md:ml-2.5">
+            Police Department
+          </div>
+        </div>
+        <div className="flex flex-col max-md:max-w-full">
+          <div className="flex gap-5 justify-between px-px w-full text-sm font-medium max-md:flex-wrap max-md:max-w-full">
+            <div className="flex gap-3 whitespace-nowrap">
+              <div className="shrink-0 w-px h-7 border border-solid bg-stone-200 border-stone-200" />
+              <div className="my-auto">Tags</div>
+            </div>
+            <div className="flex gap-3.5 whitespace-nowrap">
+              <div className="shrink-0 w-px h-7 border border-solid bg-stone-200 border-stone-200" />
+              <div className="my-auto">Balance</div>
+            </div>
+            <div className="flex gap-3.5">
+              <div className="shrink-0 w-px h-7 border border-solid bg-stone-200 border-stone-200" />
+              <div className="my-auto">Gate Code</div>
+            </div>
+          </div>
+          <div className="self-center mt-8 text-xs">$ 10,589.50</div>
+        </div>
+      </div>
+    </div>
+  </div>
+);
+}
